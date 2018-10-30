@@ -4,7 +4,7 @@
 
 To follow along in this demo, you'll need to register for a GCP account, for which you need a creditcard, on first use of GCP you get $300 worth of credits, to test-drive payed features. The demo as such should not cost anything, but there are no guarantees this is still correct when you follow this tutorial, do procede at your own risk. Also sometimes an API needs to be activated for certain services, in this tutorial all API's will be enabled by following the command prompt in the cloud shell. So don't get distracted by messages in the main cloud console screen, just read the instructions and answer yes when prompted to enable the API.
  
-Start your Google Cloud Console, open the Cloud Shell command-prompt (depicted by small icon `>_` at the top of the GCP interface), from the console envoke following command to creat a directory:
+Start your Google Cloud Console, open the Cloud Shell command-prompt (depicted by small icon `>_` at the top of the GCP interface), from the console (black and white window at the bottom of your screen) envoke following command to creat a directory:
 
 `mkdir ~/gcf_http`
 
