@@ -41,7 +41,7 @@ exports.helloWorld = (req, res) => {
 
 Run the command bellow to deploy the index.js as a function called helloWorld, of the type "trigger-http", during the setup you could be prompted to enable the API, answer with y and continue:
 
-`gcloud functions deploy helloWorld<je voornaam> --trigger-http`
+`gcloud functions deploy helloWorld --trigger-http --runtime=nodejs8`
 
 Once the function is deployed you need to find the trigger URL in the returned statement "httpsTrigger:" and use it to build the follwing command to envoke the trigger:
 
